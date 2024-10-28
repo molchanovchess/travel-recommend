@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 15px !important;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.navbar .search-container {
+  display: flex;
+  margin-left: auto;
+}
+.navbar input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+.navbar button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+}
+.navbar button:hover {
+  background-color: #777;
+}
+.main-container {
+  position: relative;
+}
+.background-container {
+  background: url("https://dubai-sea-view-properties.com/ru/uploads/images/2022-03/922c73a37b55957e45e353915ae13506.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+.content-container {
+  position: relative;
+  z-index: 1;
+}
+.main-section {
+    display: flex;
+    justify-content: space-between;
+margin: 90px 140px;
+  color: white;
+}
+.main-section div {
+  margin-bottom: 50px;
+}
+.content-text {
+    width: 350px;
+  padding: 30px;
+  background-color: #333;
+  opacity: 0.8;
+}
+.team {
+    display: flex;
+}
+
+.team-member {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    font-size: 14px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+/* General styles for the recommendations section */
+#recommendations {
+    color: white;
+    display: none;                /* Use flexbox for layout */
+    flex-wrap: wrap;             /* Allow items to wrap */
+    justify-content: center;      /* Center the items */
+    margin: 20px 0;              /* Add margin above and below */
+    padding: 20px;               /* Add padding */
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background with opacity */
+    border-radius: 10px;         /* Rounded corners */
+}
+
+/* Styles for individual recommendation cards */
+.recommendation {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    color: white;                   /* Text color */
+    border: 2px solid rgba(255, 255, 255, 0.3); /* White border with transparency */
+    border-radius: 8px;            /* Rounded corners */
+    margin: 10px;                  /* Space between cards */
+    padding: 15px;                 /* Padding inside cards */
+    max-width: 300px;              /* Maximum width for cards */
+    transition: transform 0.2s;    /* Smooth transform transition */
+}
+
+/* Hover effect for recommendation cards */
+.recommendation:hover {
+    transform: scale(1.05);        /* Slightly scale up on hover */
+}
+
+/* Styles for images within recommendations */
+.recommendation img {
+    width: 100%;                   /* Responsive image */
+    height: auto;                  /* Maintain aspect ratio */
+    border-radius: 5px;           /* Rounded corners for images */
+}
+
+/* Styles for heading within recommendations */
+.recommendation h3 {
+    margin: 10px 0;                /* Space around heading */
+    font-size: 1.5em;              /* Larger font size */
+    text-align: center;            /* Center the heading */
+}
+
+/* Styles for paragraph text within recommendations */
+.recommendation p {
+    font-size: 1em;                /* Regular font size */
+    text-align: center;            /* Center the text */
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Recommend</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="content-container">
+        <div class="navbar">
+          <!-- Navigation Links -->
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact Us</a>
+
+
+        </div>
+        <div class="main-section">
+          <div>
+            <div class="content-text">
+              <h1>Contact US</h1>
+            </div>
+            <div class="content-text">
+              Get in touch
+            </div>
+          </div>
+          <div>
+
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="/submit-form" method="POST">
+                    <!-- Name Input -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <!-- Email Input -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <!-- Message Textarea -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+        
+                    <!-- Submit Button -->
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background-container"></div>
+    </div>
+  </body>
+</html>

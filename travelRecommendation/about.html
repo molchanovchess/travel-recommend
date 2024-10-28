@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Recommend</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="content-container">
+        <div class="navbar">
+          <!-- Navigation Links -->
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact Us</a>
+
+          <!-- Search Bar -->
+          <div class="search-container">
+            <input onchange="executeSearch()" type="text" id="search" placeholder="Search..." />
+            <button type="submit" id="search-button" onclick="executeSearch()">Search</button>
+            <button id="reset-button" onclick="resetSearch()">Reset</button>
+          </div>
+        </div>
+        <div id="recommendations" class="recommendations"></div>
+        <div class="main-section">
+          <div>
+            <div class="content-text">
+              <h1>ABOUT US</h1>
+            </div>
+            <div class="content-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
+              provident error aliquam aliquid quibusdam quo facere impedit alias
+              vitae dolorem. Nisi nulla, iure non minus cum reprehenderit
+              voluptas rem maxime.
+            </div>
+          </div>
+          <div>
+            <div class="content-text">
+              <h1>Our team</h1>
+            </div>
+            <div class="content-text">
+              <div class="team">
+                <div class="team-member">
+                  <h3>John Doe</h3>
+                  <p>Front-End Developer</p>
+                </div>
+
+                <div class="team-member">
+                  <h3>Jane Smith</h3>
+                  <p>Back-End Developer</p>
+                </div>
+
+                <div class="team-member">
+                  <h3>Alex Johnson</h3>
+                  <p>UI/UX Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
